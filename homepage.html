@@ -8,61 +8,94 @@
     <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-  <!--Logo-->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <!--Logo-->
+      <a class="navbar-brand" href="homepage.html">
         <img src="https://png.pngtree.com/png-clipart/20190924/original/pngtree-dental-logo-design-creative-dentist-logo-dental-clinic-creative-company-png-image_4817208.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
         Stomatološka ambulanta "MS"
       </a>
-  <!--Hamburger menu-->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <!--Content-->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Početna <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Usluge
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+      <!--Hamburger menu-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--Content-->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="homepage.html">Početna <span class="sr-only">(current)</span></a>
+          </li>
+          <!--fixati dropdown-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownServices" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Usluge
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownServices">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="book.html">Rezerviši</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="awards.html">Nagrade</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="review.html">Mišljenje klijenata</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              O nama
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- Closing tag for container -->
+  </nav>
+  <header class="homepage-hero-header rounded-3 text-white">
+    <div class="homepage-hero-content-wrapper">
+      <div class="homepage-card">
+        <div class="card text-dark">
+          <div class="card-header">
+            Rezervišite sada
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Rezerviši</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Nagrade</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mišljenje klijenata</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            O nama
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit, Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+            <div class="homepage-hero-card-button">
+              <a href="book.html" class="btn btn-primary">Rezervišite Vaš termin</a>
+            </div>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt</a>
-        </li>
-      </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  
+  <div class="container">
+    <div class="homepage-about-content-wraper col-md-12">
+      <h2 class="homepage-about-heading text-center">O ambulanti</h2>
+      <p class="homepage-about-paragraph lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto harum laboriosam impedit officiis sit ipsa odit porro nulla unde voluptas debitis eum iure labore assumenda iste, provident deserunt vero.
+      Nulla adipisci debitis suscipit nostrum pariatur accusamus? Dolorem exercitationem ipsam iste explicabo, eum illum esse corrupti libero mollitia repellendus natus cumque numquam sit temporibus voluptatibus excepturi? Amet soluta ex commodi?
+      At maxime ullam reiciendis doloremque dolor alias repudiandae culpa, veniam perferendis provident et cum nobis dolorum atque nisi minima, aperiam aliquam cupiditate, eveniet fuga. Totam quisquam ducimus voluptate velit deserunt!
+      </p>
+      <div class="homepage-about-buttons">
+        <a href="*" class="btn btn-outline-secondary">Više o nama</a>
+        <a href="book.html" class="btn btn-info">Rezervišite Vaš termin</a>
+      </div>
     </div>
   </div>
-  </nav>
-  
 </body>
 </html>

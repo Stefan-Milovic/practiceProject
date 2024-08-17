@@ -1,9 +1,72 @@
-.navbar{
-    background-color: #6cd4f7;
+/* Styling for the navbar */
+.navbar {
+    background-color: #10648c;
 }
-a{
-    color: #5f6465;
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-a:hover{
-    color: #5f6465;
+a {
+    color: #fff;
+}
+a:hover {
+    color: #e0e0e0;
+}
+
+/* Styling for the header */
+.homepage-hero-header {
+
+        background-image: url("./images/hero.jpg");
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        position: relative; /* Ensures child elements are positioned relative to this header */
+}
+
+.homepage-hero-content-wrapper {
+   /* position: relative;  Add this if needed */
+    padding: 2rem; /* Padding inside the wrapper */
+    /*width: 100%;    Ensures content-wrapper takes full width */
+    height: 100vh;  /* Ensure the wrapper takes full height */
+
+}
+
+.homepage-card {
+    position: absolute;
+    bottom: 5rem; /* Position the card 1rem from the bottom */
+    right: 2rem;  /* Position the card 1rem from the right */
+    z-index: 10;  /* Ensure the card appears on top of other elements */
+}
+@media (max-width: 775px) {
+    .homepage-card {
+        position: relative; 
+        top: 50%;
+        right: 0;  /* Make the card full-width for smaller screens */
+    }
+}
+.card-header{
+    text-align: center;
+}
+.homepage-hero-card-button{
+    display: flex;
+    justify-content: center;
+}
+/* Styling for the About section */
+.homepage-about-heading {
+    padding: 1.5rem 0;
+}
+
+.homepage-about-paragraph {
+    padding: 1.5rem 0;
+}
+.card-text{
+    max-width: 15rem;
+}
+.homepage-about-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.homepage-about-buttons .btn {
+    margin: 1rem;
 }
