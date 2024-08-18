@@ -110,3 +110,31 @@ a:hover {
     display: flex;
     justify-content: flex-end;
 }
+/*Styling for upper footer*/
+.homepage-upper-footer{
+    background-color: #808080;
+}
+.homepage-upper-footer-map{
+    width: 100%;
+    padding: 0;
+    height: 100vh;
+}
+footer{
+    background-color: black;
+    color: #fff;
+}
+.homepage-lower-footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.homepage-lower-footer-wrapper a{
+text-decoration: underline;
+}
+.homepage-lower-footer-links{
+    display: flex;
+}
+.homepage-lower-footer-links span{
+    margin: 0 1em;
+}
