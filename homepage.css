@@ -1,3 +1,16 @@
+.homepage-info-over-nav{
+    height: 100%;
+    background-color: #0d0d0d;
+    cursor: pointer;
+}
+
+.homepage-info-over-nav :hover{
+    background-color: #5f6465;
+}
+.homepage-info-over-nav-telephone-number{
+    display: flex;
+    justify-content: flex-end;
+}
 /* Styling for the navbar */
 .navbar {
     background-color: #10648c;
@@ -5,11 +18,12 @@
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-a {
+.navbar a {
     color: #fff;
 }
-a:hover {
+.navbar a:hover {
     color: #e0e0e0;
+    text-decoration: underline;
 }
 
 /* Styling for the header */
@@ -19,7 +33,7 @@ a:hover {
         background-size: cover;
         background-position: center;
         min-height: 100vh;
-        position: relative; /* Ensures child elements are positioned relative to this header */
+        position: relative;
 }
 
 /* Styling for the About section */
@@ -39,7 +53,7 @@ a:hover {
 }
 /* Styling for homepage cards*/
 .homepage-carousel-wrapper{
-    background-color: #43444c;
+    background-color: #7a8184;
 }
 .cards-wrapper {
   display: flex;
@@ -66,12 +80,7 @@ a:hover {
   border-radius: 50%;
   top: 50%;
   transform: translateY(-50%);
-}/*
-@media (min-width: 768px) {
-  .card img {
-    height: 11em;
-  }
-}*/
+}
 .homepage-carousel-button-wrapper{
     display: flex;
     justify-content: center;
@@ -82,10 +91,7 @@ a:hover {
 /*Styling for homepage reviews*/
 .homepage-reviews-row{
     margin: 5em auto;
-}/*
-.homepage-reviews-image-wrapper{
-    margin: 3em 0;
-}*/
+}
 .homepage-reviews-left-side{
     display: flex;
     justify-content: center;
@@ -133,16 +139,16 @@ a:hover {
 .homepage-upper-footer-worktime p{
     margin: 0;
     padding: 0;
+    font-size: 1.125em;
 }
 .homepage-upper-footer-contact p {
     margin: 1.25em 0;
+    font-size: 1.25em;
 }
 .homepage-upper-footer-map{
     width: 100%;
     padding: 0;
- /*   height: 100vh;*/
 }
-.test1{
-    background-color: #43444c;
-    height: 150px;
+footer{
+    background-color: #0d0d0d;
 }
