@@ -39,7 +39,7 @@ a:hover {
 }
 /* Styling for homepage cards*/
 .homepage-carousel-wrapper{
-    background-color: #7a8184;
+    background-color: #43444c;
 }
 .cards-wrapper {
   display: flex;
@@ -112,29 +112,37 @@ a:hover {
 }
 /*Styling for upper footer*/
 .homepage-upper-footer{
-    background-color: #808080;
+    background-color: #10648c;
+    color: #f7ffe6;
+}
+.homepage-upper-footer h4{
+    font-weight: 900;
+}
+.homepage-upper-footer-contact, .homepage-upper-footer-worktime-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.875em;
+}
+.homepage-upper-footer-contact p, .homepage-upper-footer-worktime-wrapper p{
+    font-style: italic;
+}
+.homepage-upper-footer-worktime{
+    margin-top: 1.25em;
+}
+.homepage-upper-footer-worktime p{
+    margin: 0;
+    padding: 0;
+}
+.homepage-upper-footer-contact p {
+    margin: 1.25em 0;
 }
 .homepage-upper-footer-map{
     width: 100%;
     padding: 0;
-    height: 100vh;
+ /*   height: 100vh;*/
 }
-footer{
-    background-color: black;
-    color: #fff;
-}
-.homepage-lower-footer-wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-.homepage-lower-footer-wrapper a{
-text-decoration: underline;
-}
-.homepage-lower-footer-links{
-    display: flex;
-}
-.homepage-lower-footer-links span{
-    margin: 0 1em;
+.test1{
+    background-color: #43444c;
+    height: 150px;
 }
