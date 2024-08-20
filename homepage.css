@@ -25,7 +25,15 @@
     color: #e0e0e0;
     text-decoration: underline;
 }
-
+.navbar .dropdown-menu{
+    background-color: #10648c;
+    border: none;
+    border-radius: 5px;
+}
+.navbar .dropdown-menu a:hover{
+    text-decoration: none;
+    color: #16181b;
+}
 /* Styling for the header */
 .homepage-hero-header {
 
