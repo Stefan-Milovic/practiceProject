@@ -21,3 +21,34 @@
     text-decoration: none;
     color: #16181b;
 }
+
+/*Styling for contact cards*/
+.contact-cards-wrapper{
+    background-color: #F2F6F9;
+}
+.contact-svg-wrapper{
+    padding: 3em 1em;
+}
+.contact-card-wrapper{
+    border: 1px solid #F2F6F9; 
+    display: flex; 
+    margin: 20px 0; 
+    border-radius: 1em;
+    box-shadow: 5px 5px 5px #7a8184; 
+    background-color: #fff;
+}
+.svg-wrapper{
+    display: flex; align-items: center; justify-content: center; float: left; width: 20%;
+}
+.info-wrapper{
+    padding: 10px 0; 
+    float: right; 
+    width: 80%;
+}
+.info-wrapper h6{
+    font-weight: 700;
+}
+/*Styling for lower footer*/
+footer{
+    background-color: #0d0d0d;
+}
