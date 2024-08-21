@@ -23,13 +23,21 @@
 }
 
 /*Styling for contact cards*/
-.contact-cards-wrapper{
+.wrapper{
     background-color: #F2F6F9;
 }
-.contact-svg-wrapper{
+
+.contact-cards-wrapper{
     padding: 3em 1em;
 }
-.contact-card-wrapper{
+.contact-cards-wrapper h2{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    font-weight: 700;
+    font-style: italic;
+}
+.contact-card{
     border: 1px solid #F2F6F9; 
     display: flex; 
     margin: 20px 0; 
@@ -38,7 +46,11 @@
     background-color: #fff;
 }
 .svg-wrapper{
-    display: flex; align-items: center; justify-content: center; float: left; width: 20%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    float: left; 
+    width: 20%;
 }
 .info-wrapper{
     padding: 10px 0; 
