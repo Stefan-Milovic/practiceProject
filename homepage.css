@@ -43,6 +43,26 @@
         min-height: 100vh;
         position: relative;
 }
+.hero-mask{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hero-content{
+    color: #fff;
+}
+.hero-content h4{
+    margin-bottom: 1em;
+}
+.hero-button-wrapper{
+    display: flex;
+    justify-content: center;
+}
 
 /* Styling for the About section */
 .homepage-about-heading, .homepage-about-paragraph {
