@@ -54,6 +54,37 @@
     width: 100%;
     padding: 0;
 }
+/*Styling for content*/
+.awards-wrapper{
+    height: 100%;
+    background-color: #404040;
+    display: flex; 
+    flex-wrap: wrap; 
+    padding: 3.125em;
+}
+.card-wrapper{
+    display: flex;
+    justify-content: center; 
+    margin: 2em 0;
+    color: #fff;
+}
+.svg-wrapper{
+    text-align: center;
+}
+.card-content h4{
+    display: flex;
+    justify-content: center;
+}
+.card-content p{
+    font-style: italic;
+}
+.card-content span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    font-style: italic;
+    text-decoration: underline;
+}
 /*Styling for lower footer*/
 footer{
     background-color: #0d0d0d;
