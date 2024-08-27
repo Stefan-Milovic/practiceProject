@@ -1,0 +1,68 @@
+/* Styling for the navbar */
+.navbar {
+    background-color: #10648c;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar a {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #e0e0e0;
+    text-decoration: underline;
+}
+.navbar .dropdown-menu{
+    background-color: #10648c;
+    border: none;
+    border-radius: 5px;
+}
+.navbar .dropdown-menu a:hover{
+    text-decoration: none;
+    color: #16181b;
+}
+/*Styling for content*/
+.services-card-wrapper{
+    background-color: #F2F6F9;
+    border-radius: 10px;
+}
+.services-card{
+    margin: 0.5em 0;
+}
+/*Styling for upper footer*/
+.homepage-upper-footer{
+    background-color: #10648c;
+    color: #f7ffe6;
+}
+.homepage-upper-footer h4{
+    font-weight: 900;
+}
+.homepage-upper-footer-contact, .homepage-upper-footer-worktime-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.875em;
+}
+.homepage-upper-footer-contact p, .homepage-upper-footer-worktime-wrapper p{
+    font-style: italic;
+}
+.homepage-upper-footer-worktime{
+    margin-top: 1.25em;
+}
+.homepage-upper-footer-worktime p{
+    margin: 0;
+    padding: 0;
+    font-size: 1.125em;
+}
+.homepage-upper-footer-contact p {
+    margin: 1.25em 0;
+    font-size: 1.25em;
+}
+.homepage-upper-footer-map{
+    width: 100%;
+    padding: 0;
+}
+/*Styling for lower footer*/
+footer{
+    background-color: #0d0d0d;
+}
