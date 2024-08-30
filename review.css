@@ -25,11 +25,12 @@
 .homepage-carousel-wrapper{
     background-color: #F2F6F9;
 }
+
 .homepage-carousel-wrapper h2{
     padding: 1.5em;
     display: flex;
     justify-content: center;
-    color: #fff;
+    color: #0d0d0d ;
 }
 .cards-wrapper {
   display: flex;
