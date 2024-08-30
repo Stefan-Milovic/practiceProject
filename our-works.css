@@ -21,6 +21,38 @@
     text-decoration: none;
     color: #16181b;
 }
+/*Styling for our works*/
+/*Styling for the gallery*/
+body{
+	margin:0;
+	padding:0;
+}
+.gallery-heading{
+	margin: 1.5em 0;
+	font-weight: bold;
+}
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding: 0.625em 1em;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+.portfolio-item{
+	margin: 3.125em 0;
+}
+.portfolio-item .item{
+	float:left;
+	margin-bottom:0.625em;
+}
 /*Styling for upper footer*/
 .homepage-upper-footer{
     background-color: #10648c;
